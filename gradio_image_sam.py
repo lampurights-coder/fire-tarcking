@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings("ignore")
 import os
 
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = "xxx"
 
 # Global model and processor
 device = "cuda" if torch.cuda.is_available() else "cpu"
