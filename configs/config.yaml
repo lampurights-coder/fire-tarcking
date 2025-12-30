@@ -1,0 +1,18 @@
+access_key: minioadmin
+bucket: detector-frames
+buffer_size: 10
+dashboard_alarm: http://192.168.7.41:5000/report
+dashboard_ws: ws://0.0.0.0:8075
+disconnect_timeout: 5
+endpoint: 0.0.0.0:9000
+log_level: INFO
+max_failures: 5
+milvus_collection: main
+milvus_service: http://0.0.0.0:19530/
+output_dir: false
+recognition_ws: ws://0.0.0.0:9100
+search_service: None
+secret_key: minioadmin123
+sources:
+- id: 11
+  url: ./uploaded_videos/1767011354_fire.webm

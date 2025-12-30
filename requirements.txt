@@ -1,0 +1,10 @@
+transformers@git+https://github.com/huggingface/transformers@a7f29523361b2cc12e51c1f5133d95f122f6f45c
+gradio
+torch==2.9.1
+torchvision==0.24.1
+opencv-python==4.10.0.84
+numpy==1.26.4
+Pillow==11.2.1
+pyyaml
+scipy
+boxmot==16.0.6

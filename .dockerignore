@@ -1,0 +1,5 @@
+__pycache__
+*.mp4
+*.avi
+output/
+uploaded_videos/
