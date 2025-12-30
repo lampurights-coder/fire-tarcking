@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw
 from transformers import Sam3Processor, Sam3Model
 import os
 
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = "xxx"
 
 class SamDetector:
     def __init__(self, model_path="./sam_model"):
