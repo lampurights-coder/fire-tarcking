@@ -11,7 +11,7 @@ import torch
 
 import os
 
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = "xxx"
 
 if not os.environ.get("HF_TOKEN"):
     raise RuntimeError("Please set HF_TOKEN environment variable (HuggingFace token).")
